@@ -1,0 +1,32 @@
+{
+  "name": "vowel-lessons",
+  "version": "1.0.0",
+  "description": "A project for teaching vowel sounds through lessons and quizzes.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "ts-node": "^10.4.0",
+    "jest": "^27.0.6",
+    "@types/jest": "^27.0.2",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2"
+  },
+  "keywords": [
+    "vowels",
+    "education",
+    "quiz",
+    "typescript",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
